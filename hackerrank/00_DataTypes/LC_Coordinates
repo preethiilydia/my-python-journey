@@ -9,3 +9,8 @@ print ([[i,j,k] for i in range (x+1)
 1) x,y,z are ranges. and i,j,k are actual values.
 2) why (x+1),(y+1),(z+1) ... because range(n) example means 0 to n-1. if n=2 then [0,1]
 and if we want '2' value to be inclusive then, n+1, range(3), which will be [0,1,2]
+3) list comprehension syntax is :
+[expression] for item in iterable
+4) if x=1, y=1, z=1
+then x,y,z will have each 2 values. (0,1),(0,1) and (0,1) these are ranges.
+total combinations will be 2*2*2=8
