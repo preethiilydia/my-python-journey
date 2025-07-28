@@ -1,0 +1,11 @@
+Q link) https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true
+
+print ([[i,j,k] for i in range (x+1)
+              for j in range (y+1)
+              for k in range (y+1)
+              if i+j+k!=n])
+
+#Mistakes i made and points to remember:
+1) x,y,z are ranges. and i,j,k are actual values.
+2) why (x+1),(y+1),(z+1) ... because range(n) example means 0 to n-1. if n=2 then [0,1]
+and if we want '2' value to be inclusive then, n+1, range(3), which will be [0,1,2]
